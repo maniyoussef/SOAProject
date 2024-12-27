@@ -61,11 +61,11 @@
                             <sourceRoot>${project.build.directory}/generated-sources/xjc</sourceRoot>
                             <xsdOptions>
                                 <xsdOption>
-                                    <xsd>${project.basedir}/src/main/resources/xsd/employee.xsd</xsd>
+                                    <xsd>${project.basedir}/employee-department-soa/src/main/resources/xsd/employee.xsd</xsd>
                                     <packagename>com.example.model.employee</packagename>
                                 </xsdOption>
                                 <xsdOption>
-                                    <xsd>${project.basedir}/src/main/resources/xsd/department.xsd</xsd>
+                                    <xsd>${project.basedir}/employee-department-soa/src/main/resources/xsd/department.xsd</xsd>
                                     <packagename>com.example.model.department</packagename>
                                 </xsdOption>
                             </xsdOptions>
@@ -74,5 +74,6 @@
                 </executions>
             </plugin>
         </plugins>
+        <sourceDirectory>${project.build.directory}/generated-sources/xjc</sourceDirectory>
     </build>
 </project>
