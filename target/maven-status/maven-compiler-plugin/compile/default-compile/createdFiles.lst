@@ -1,0 +1,10 @@
+com/example/model/department/AddDepartmentResponse.class
+com/example/model/employee/Employee.class
+com/example/model/department/ObjectFactory.class
+com/example/model/department/AddDepartmentRequest.class
+com/example/model/department/package-info.class
+com/example/model/employee/package-info.class
+com/example/model/employee/AddEmployeeResponse.class
+com/example/model/employee/ObjectFactory.class
+com/example/model/department/Department.class
+com/example/model/employee/AddEmployeeRequest.class
